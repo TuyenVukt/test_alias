@@ -1,0 +1,174 @@
+/*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+
+a, a:hover{
+    text-decoration: none;
+}
+
+p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+}
+
+p .bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.category_block li:hover {
+    background-color: #007bff;
+}
+
+.category_block li:hover a {
+    color: #ffffff;
+}
+
+.category_block li a {
+    color: #343a40;
+}
+
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+
+.reviews_product .fa-star {
+    color: gold;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+footer {
+    background: #343a40;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #f8f9fa!important
+}
+
+.bgc {
+    background-image: url(image/Clothes+and+shoes-74_banner.jpg);
+    /*background-image: url("https://envato-shoebox-0.imgix.net/a553/ba21-ce80-45ee-82d4-120907cdb414/Clothes+and+shoes-74_banner.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=a9cc1545e602fe3d3e6c9faed39f0a84");*/
+}
+
+.show_txt {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+a .active {
+    color: white;
+}
+
+
+/**/
+.list-group-item{
+    cursor: pointer;
+}
+.
+/* all product */
+.product-block {
+    margin-bottom: 10px;
+
+}
+.product-block p{
+    margin-bottom: 30px;
+}
+p.product-name{
+    text-align: center;
+    font-size: 17px;
+    color: #040000;
+    font-weight: 500;
+    display: block;
+    overflow: hidden;
+}
+
+p.product-price{
+    color: #c01508;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.cart-block{
+    display: flex;
+    background-color: #c01508;
+    color: white;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 30%;
+    font-size: 18px;
+    transition: 0.6s;
+
+}
+.cart-icon{}
+.cart-text{margin-left: 5px; font-weight: 600;}
+.cart-block:hover{
+    background-color: rgb(190, 188, 188);
+    color:  #c01508;
+    transition: 0.6s;
+}
+.product-img {
+    text-align: center;
+    height: 250px;
+    overflow: hidden;
+}
+
+.product-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: 0.6s;
+}
+.product-block:hover .product-img img{
+    transform: scale(1.1);
+
+    transition: 0.6s;
+}
+.product-block:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.6s;
+}
+
